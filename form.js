@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     $("#btnAdd").click(function (event) {
-        $.post('getForm.php', function (resposta) {
-            $("#append").append(resposta);
+        $.post('getForm.php', function (answer) {
+            $("#append").append(answer);
         });
     });
 
