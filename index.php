@@ -1,5 +1,4 @@
 <?php
-// test
 require 'model/Model.php';
 extract($_POST);
 session_start();
