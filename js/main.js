@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $("#btnAdd").click(function (event) {
-        $.post('getForm.php', function (answer) {
+        $.post('views/getForm.php', function (answer) {
             $("#append").append(answer);
         });
     });
